@@ -1,0 +1,9 @@
+name : UniNet_env
+dependencies :
+  - python = 3.6.1
+  - numpy
+  - django
+  - mysql-connector-python
+  - pip :
+    - social-auth-app-django
+
