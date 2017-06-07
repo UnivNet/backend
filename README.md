@@ -9,15 +9,14 @@
 - If using PyCharm (preferably), _change your project interpreter_ to this virtual environment, otherwise,
  [activate the environment](https://conda.io/docs/using/envs.html#change-environments-activate-deactivate) 
  from terminal.
+- You'll **also** need the `.env` file to access the project settings
+    - Get it from the Google Drive
+    - Place it in the project root
+    - Be _responsible_, handle the `.env` file like you'd handle your passwords
+    - An example env file is provided at `.env.example`
 
 
-### DB created at jujournal.com
-
-| Property | Value                      |
-|----------|----------------------------|
-| Engine   | django.db.backends.sqlite3 |
-| Name     | UnivNetTest                |
-| User     | univnettest                |
-| Host     | 166.62.28.130              |
-| Port     | 3306                       |
-
+### Quick help
+- [Python Decouple docs](https://pypi.python.org/pypi/python-decouple)
+- [Delete superuser](https://stackoverflow.com/a/26713562/4626943)
+- Remove a conda environment `conda env remove -n [name_of_env]`
